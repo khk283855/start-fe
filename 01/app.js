@@ -1,4 +1,6 @@
 console.log('app.js');
+
+var age = 20;
 /*
 var name = "김현규";
 var Name = "김현규";
@@ -58,6 +60,6 @@ console.log(isMan, true);
 //     console.log('hero'); // hero
 // }
 
-console.log(typeof 1); // number
-console.log(typeof []); // object
-console.log(typeof '1'); // string
+// console.log(typeof 1); // number
+// console.log(typeof []); // object
+// console.log(typeof '1'); // string
