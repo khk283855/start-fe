@@ -1,112 +1,67 @@
 console.log('app');
 
+var age = 20;
 
+/*
+var name = "김현규";
+var Name = "김현규";
+var count = 1;
+var isMan = true;  // bool
+var isMan = "true" // string;
 
-// create
-// var todos = ['운동'];
-// var todo = '게임';
-// todos.push(todo);
-// console.log(todos);
+var log = function(str){
+    console.log(str);
+};
 
-// // read
-// var todos = ['운동', '게임'];
-// todos.forEach(function(todo) {
-//   console.log(todo);
-// });
+function log(str){
+    console.log(str);
+}
 
-//update
-// var todos = ['운동', '게임'];
-// var updateTodo = '게임';
-// var updateIndex = todos.findIndex(function(todo) {
-//   return todo === updateTodo;
-// });
-// todos[updateIndex] = '공부';
-// console.log(todos);
+log("hello");
 
-// //delete
-// var todos = ['운동', '공부', '목욕'];
-// var deleteTodo = '공부';
-// var deleteIndex = todos.findIndex(function(todo) {
-//   return todo === deleteTodo;
-// });
-// todos.splice(deleteIndex, 1);
-// console.log(todos);
+console.log(name);
+console.log(Name);
+console.log(count);
+console.log(isMan, true);
+*/
 
-// var isMan = true;
-// if(isMan) {
-//     console.log('1');
-// }
-// else if(isMan && isHero) {
-
-// }
-//  else {
-//     console.log('2');
-// }
-
-// window.alert('1');
-// var who = prompt("당신은 누구세요?");
-// console.log(who);
-
-// var isDelete = confirm('정말 삭제합니까?');
-
-// console.log(isDelete);
-
-// function sum(a,b);{
-//     return a + b;
-// }
-// console.log(sum(1,2));
-
-// var car = {
-//     year: '2014',
-//     starting: function() {
-//       console.log('starting..');
-//     },
-//   };
-
-//   function sum(x, y) {
-//     if (!y) y = 1;
-//     console.log(x + y);
-//   }
-//   console.log(sum(3));
-//   console.log(sum(3,3));
-
-// var count = [10,20,30,40,50,60,70,100];
-// console.log((count[0]+count[1]+count[2]+count[3]+count[4]+count[5]+count[6]+count[7])/8)
-
-// 구구단
-// for(var i = 2; i < 10; i++){
-//     console.log(i+'단');
-//     for(var j = 1; j < 10; j++){
-//         console.log(i+'*'+j+'='+(i*j));
-//     }
-// }
-
-// function mul() {
-//     for(var i = 2; i < 10; i++){
-//         console.log(i+'단');
-//         for(var j = 1; j < 10; j++){
-//             console.log(i+'*'+j+'='+(i*j));
-//         }
-//     }
-// }
-// mul();
-// var isMan = {
-//     test : function(){
-//         console.log(this);
-//     }  
+// var image = {
+//     width: 100,
+//     height: 100,
+//     name: '1.png',
 // };
-// obj.test();
-var num, total = 0;
 
- for(var isEnd = false; isEnd === false; ){
+// var imageWidth = 100;
+// var imageHeight = 100;
+// var imageName = '1.png';
 
-   num = prompt("더할 숫자를 입력해주세요!");
+// var image1 = [1,2,3,4,5,6,'a',{}];
+// image[0] = 'a';
 
-   if(num === null){
-    alert("숫자의 총 합은:"+ total);
-     isEnd = true;
-   }
-   else {
-    total += parseInt(num, 10);
-   }
- }
+// var data = null;
+// var data1 = '';
+// var data2;
+
+// console.log(data,data1,data2);
+
+// console.log(image, image1);
+
+// console.log(1+2);
+// console.log('a'+'b');
+// var count = 1;
+// var number = '2';
+
+//console.log(count + number); // 12
+// console.log(1 == 1); // true
+// console.log('' == '0'); // false
+// console.log(0 == ''); // true
+// console.log(0 === ''); // false
+// var ishero = true;
+// if(ishero){
+//     console.log('hero'); // hero
+// }
+
+// console.log(typeof 1); // number
+// console.log(typeof []); // object
+// console.log(typeof '1'); // string
+
